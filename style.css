@@ -21,3 +21,26 @@ h6 {
 }
 
 /* STYLING  */
+
+/* styling menu */
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px 0;
+  list-style: none;
+}
+
+.menu a:link {
+  text-decoration: none;
+}
+.menu a:visited {
+  text-decoration: none;
+}
+.menu a:hover {
+  text-decoration: none;
+}
+.menu a:active {
+  text-decoration: none;
+}
