@@ -25,11 +25,37 @@ h6 {
 /* styling menu */
 
 .menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 15px 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
   list-style: none;
+  background-color: #038c8c;
+}
+.menu .item-1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.menu .item-4 {
+  grid-column-start: -2;
+  grid-column-end: 10;
+  justify-self: end;
+  border-left: 2px solid azure;
+}
+.menu li {
+  padding: 16px 25px;
+  background-color: #03a696;
+  border-right: 2px solid azure;
+}
+
+.menu li:hover {
+  padding: 16px 25px;
+  background-color: #025159;
+  border-right: 2px solid azure;
+  transform: scale(1.009);
+  font-weight: bold;
+}
+.menu li a {
+  color: azure;
 }
 
 .menu a:link {
