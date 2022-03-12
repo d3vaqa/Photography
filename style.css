@@ -30,6 +30,9 @@ h6 {
   grid-template-rows: 1fr;
   list-style: none;
   background-color: #038c8c;
+  box-shadow: 0px 5px 4px -1px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: 0px 5px 4px -1px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 0px 5px 4px -1px rgba(0, 0, 0, 0.62);
 }
 .menu .item-1 {
   grid-column-start: 2;
@@ -70,3 +73,57 @@ h6 {
 .menu a:active {
   text-decoration: none;
 }
+
+/* Hero section */
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin-top: 25px;
+}
+.hero .hero-content {
+  /* border: 2px solid red; */
+  grid-column: 2 / span 5;
+  padding-top: 35px;
+  padding-left: 35px;
+}
+
+.hero .hero-content .hero-heading {
+  font-size: 55px;
+  margin-top: 75px;
+  letter-spacing: 2%;
+}
+.hero .hero-content .hero-content-text {
+  font-size: 18px;
+  letter-spacing: 1.5%;
+  margin-top: 45px;
+}
+
+.hero .hero-img {
+  /* border: 2px solid red; */
+  grid-column: 7 / span 5;
+  margin: 45px 45px 0 0;
+}
+.hero .hero-svg {
+  width: 100%;
+  height: auto;
+}
+.hero-btn {
+  margin-top: 35px;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 26px;
+  background-color: #03a696;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+}
+
+.hero-btn:hover {
+  background: #038c8c;
+  text-decoration: none;
+}
+
+/* about us style */
