@@ -22,11 +22,34 @@ h6 {
 
 /* STYLING  */
 
+/* ========================
+|||||||||||||||||||||||||||
+======GENERAL STYLES ====== 
+|||||||||||||||||||||||||||
+===========================*/
+.center {
+  text-align: center;
+}
+
+.description {
+  font-size: 17px;
+}
+
+.title {
+  font-size: 2.5rem;
+  padding: 35px 0;
+}
+
 /* styling menu */
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
 .menu {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(11, 1fr);
   grid-template-rows: 1fr;
   list-style: none;
   background-color: #038c8c;
@@ -80,8 +103,9 @@ h6 {
 
 .hero {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(11, 1fr);
   margin-top: 25px;
+  padding-bottom: 50px;
 }
 .hero .hero-content {
   /* border: 2px solid red; */
@@ -96,14 +120,13 @@ h6 {
   letter-spacing: 2%;
 }
 .hero .hero-content .hero-content-text {
-  font-size: 18px;
   letter-spacing: 1.5%;
   margin-top: 45px;
 }
 
 .hero .hero-img {
   /* border: 2px solid red; */
-  grid-column: 7 / span 5;
+  grid-column: 7 / span 4;
   margin: 45px 45px 0 0;
 }
 .hero .hero-svg {
@@ -150,3 +173,15 @@ h6 {
 }
 
 /* about us style */
+.team-section,
+.about-us {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.about-us-content,
+.team-section {
+  grid-column: 2 / span 10;
+  padding-left: 35px;
+  margin-top: 35px;
+}
