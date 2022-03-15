@@ -211,6 +211,7 @@ h6 {
   position: absolute;
   left: 0;
   top: 0;
+  border-radius: 12px;
 }
 
 .our-team-header {
@@ -244,6 +245,7 @@ h6 {
   padding: 17px;
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
 }
 
 .team-card::after {
