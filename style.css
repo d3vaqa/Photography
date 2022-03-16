@@ -211,7 +211,6 @@ h6 {
   position: absolute;
   left: 0;
   top: 0;
-  border-radius: 12px;
 }
 
 .our-team-header {
@@ -249,7 +248,7 @@ h6 {
 }
 .team-card:hover {
   transform: scale(1.03);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.4s ease-in;
 }
 
 .team-card::after {
